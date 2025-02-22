@@ -4,10 +4,13 @@ Research papers I find interesting, and other ideas.
 
 ## Combining Masked Input and Autoregression 
 
-[MEAP: Pay Less Attention to Learn More](https://arxiv.org/abs/2502.07490v1)
+- [Look Ahead or Look Around?
+A Theoretical Comparison Between Autoregressive and Masked Pretraining](https://arxiv.org/pdf/2407.00935)
 
----
-### Summary from chat gpt o1:
+- [MEAP: Pay Less Attention to Learn More](https://arxiv.org/abs/2502.07490v1)
+
+
+### Summary of MEAP from chat gpt o1:
 
 The paper “Mask-Enhanced Autoregressive Prediction: Pay Less Attention to Learn More”  introduces a novel training paradigm—MEAP—that blends ideas from masked language modeling (MLM) into the conventional next-token prediction (NTP) framework used by decoder-only Transformers.
 
@@ -27,7 +30,7 @@ Conclusion
 Overall, MEAP presents a simple yet effective modification to the traditional autoregressive training method. By integrating a lightweight masking strategy into NTP, the approach enhances the model’s retrieval and reasoning capabilities without modifying the underlying Transformer architecture or adding extra computational burden.
 
 This work positions MEAP as a promising training paradigm for large language models, combining the strengths of both masked and autoregressive methods in a unified and efficient framework.
----
+
 
 ### My Thoughts:
 
